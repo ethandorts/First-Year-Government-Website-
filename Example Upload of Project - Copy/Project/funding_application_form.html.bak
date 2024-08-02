@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Application Form </title>
+    <link rel = "stylesheet" href = "assets/application_form.css"/>
+	<link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+	</style>
+  </head>
+  <body>
+    <header>
+		  <img class = "logo" src = "assets/government_image.png" alt = "logo" height = "72" width = "85">
+		  <nav class = "navbar">
+		  <a href = "funding_application_form.html" class = "nav-title">Apply For Funding</a>
+		  <ul class = "nav-menu">
+		    <li><a href = "landing_pg.html" class = "nav-link" >Home</a></li>
+		    <li><a href = "faq.html" class = "nav-link" >FAQ</a></li>
+			<li><a href = "register_account.html" class = "nav-link">Register</a></li>
+			<li><a href = "funding_application_form.html" class = "nav-link">Application Form</a></li>
+			<li><a href = "submitted_application_form_.html" class = "nav-link">Submitted Forms</a></li>
+		</ul>
+	  </nav>
+	</header>
+	
+	<section class = "intro">
+	<h1>Create an Application </h1>
+    </section>
+	
+	<div class = "intro_text">
+	<h2>Since 2003, GOV Funding has supported more than 2,000 local businesses across the United Kingdom. 
+	Now more than ever, businesses need our help as a result of the devastating economic crisis that our nation is currently going through. 
+	It is our duty to reward and aid our local businesses to grow and excel in their industries. 
+	Make your GOV FUNDING application today and reap the rewards of our grants!</h2>  
+
+	<h3> Account No: GF103</h3> 
+
+	<div class ="text">
+	<p>Start your GOV FUNDING Digitalisation application below:</p> 
+	</div>
+	
+	<div class = "gather_info">
+	<form action = "submitted_application_form_.html"> 
+	
+	<p> Step 1 of 4 - Business Information</p>
+	
+	<label for="companyRep">Company Representative</label>
+	<input type="text" id="companyRep" placeholder = "Enter Company Representative..." required>
+	
+	<label for="companyName">Representative Position</label>
+	<input type="text" id="repPosition" placeholder = "Enter Representative Position..." required>
+	
+	<p> Step 2 of 4 - Business Location </p>
+	
+	<label for="companyAddress">Company Address</label>
+	<input type="text" id="companyAddress" placeholder = "Enter Company Address..." required>
+	
+	<label for="city">City</label>
+	<input type="text" id="city" placeholder = "Enter City..." required>
+	
+	<label for="postcode">Postcode</label>
+	<input type="text" id="postcode" placeholder = "Enter Postcode..." required>
+	
+	<label for="country">Country</label>
+	<select id ="country" name="country" required>
+	<option value="england"> England </option>
+	<option value ="" disabled selected hidden> Select Country</option>
+	<option value="northern_ireland"> Northern Ireland</option>
+	<option value="scotland"> Scotland</option>
+	<option value="northern_ireland"> Wales</option>
+	</select>
+	
+	<p> Step 3 of 4 - Additional Business Information</p>
+	
+	<label for="businessFounded">Business Founded</label>
+	<input type="text" id="businessFounded" placeholder = "Enter Date of Business Founded" required>
+	
+	<label for="companyWebsite">Company Website</label>
+	<input type="text" id="companyWebsite" placeholder = "Enter Company Website..." required>
+	
+	<label for="companyType">Type of Company</label>
+	<input type="text" id="organisationType" placeholder = "Enter Company Type..." required >
+	
+	<label for="companyRegNo">Company Telephone Number</label>
+	<input type="text" id="companyRegNo" placeholder = "Enter Company Registration Number" required>
+	
+	<label for="grantAmountRequested">Grant Amount Requested</label>
+	<input type="text" id="grantAmountRequested" placeholder = "Enter Grant Amount Requested..." required>
+	
+	<p> Step 4 of 4 - Application Details</p>
+	
+	<label for="GrantReason">Reason for applying for Digitilisation Project</label>
+	<textarea id="subject" name="subject" placeholder="Outline Application details here..." required ></textarea>
+	
+	<label for="FileUpload"> Upload File</label>
+	<input type= "file" id="File" name="filename" placeholder = "Upload Files">
+
+	
+	<button type = "submit" class ="button_click" >Submit Application</button>
+	
+	</form>
+	</div>
+	
+	<div class = "companies-helped">
+		<h2> GOV FUNDING Success Stories</h2> 
+		<!-- McDondald's Image: https://www.bhwt.org.uk/companies/mcdonalds/-->
+		<img src = "assets/mcdonalds.png" height = "70 width = "70">
+		<p> In 2018, McDonalds received a grant worth approximately £20,000 from GOV FUNDING. McDonalds had a project where they aimed
+		to digitalise their operations. With our help, they implemented an online booking system with our funding. With our help McDonalds
+		has seen profits soar and demand for their products at an all time high. </p>
+		<!--https://www.logolynx.com/topic/diner-->
+		<img src ="assets/nick.png" height="70" width = "70"> 
+		<p> In 2019, Nick's Diner was very close to falling into administration. After reaching out and applying to GOV FUNDING, Nick's
+		Diner is going stronger than ever, doubling their profits and revenue from previous years. GOV FUNDING ensured that Nick's Diner remained
+		open for trading.</p>
+	</div>
+	
+	<footer id = "footer">
+        <div class ="right">
+            <span><a href = "#">Help</a> | <a href ="#">Cookies</a> | <a href = "#">Accessibility Statement</a> | <a href = "#">Contact</a> | <a href = "#">Privacy Policy</a> | <a href = "#" >Terms and Conditions</a></span>
+        </div>
+		
+		<ul class ="socials">
+				<li><a href = "#"><i class = "fa fa-facebook"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-twitter"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-google-plus"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-youtube"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-linkedin-square"></i></a></li>
+			</ul>
+
+       <div class = "bottom">
+           <p>© 2022 GOV FUNDING</p>
+       </div>
+       </footer>
+	
+	</body>
+	</html>
+	
+	

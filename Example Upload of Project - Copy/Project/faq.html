@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> FAQ Page </title>
+    <link rel = "stylesheet" href = "assets/faq.css"/>
+	<link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+	</style>
+	<script src="assets/faq.js"></script>
+  </head>
+  <body>
+    <header>
+		  <img class = "logo" src = "assets/government_image.png" alt = "logo" height = "72" width = "85">
+		  <nav class = "navbar">
+		  <a href = "faq.html" class = "nav-title">FAQs</a>
+		  <ul class = "nav-menu">
+		    <li><a href = "landing_pg.html" class = "nav-link" >Home</a></li>
+		    <li><a href = "faq.html" class = "nav-link" >FAQ</a></li>
+			<li><a href = "register_account.html" class = "nav-link">Register</a></li>
+			<li><a href = "funding_application_form.html" class = "nav-link">Application Form</a></li>
+			<li><a href = "submitted_application_form_.html" class = "nav-link">Submitted Forms</a></li>
+		</ul>
+	  </nav>
+	</header>
+	
+	<section class = "intro">
+	<h1> Frequently Asked Questions </h1>
+	<h4> We're here to assist you through every step of your application!</h4>
+	</section>
+	
+	<section>
+	<h3> How can we help you today? <h3>
+	<form>
+	  <input type="text" name="search" placeholder="What do you want to find...">
+    </form>
+	</section>
+	
+
+	
+	<h3> Most Asked Questions</h3> 
+	<div class = "accordion_background">
+	<ul id ="accordion">
+            <li>
+                <label for="first"> When will applications open? <span>&#x3e;</span></label>
+                <input type ="radio" name = "accordion" id ="first" checked>
+                <div class = "content">
+                    <p>
+                        Applications opened on the 1st November 2022 for all small businesses and your business can apply
+						for funding right now. 
+                    </p>
+                </div>
+            </li>
+            <li>
+                <label for="second"> What is the application deadline for funding? <span>&#x3e;</span></label>
+                <input type ="radio" name = "accordion" id ="second" checked>
+                <div class = "content">
+                    <p>
+                        All companies must have submitted their applications by 16th Deecember 2022 by 23:59. Applications
+						will close at this time and all applications submitted after this time will be not be reviewed for 
+						progression to the next stage of the application process. 
+                    </p>
+                </div>
+            </li>
+            <li>
+                <label for="third"> What is the purpose of this funding?<span>&#x3e;</span></label>
+                <input type ="radio" name = "accordion" id ="third" checked>
+                <div class = "content">
+                    <p>
+                        This funding is being made available to small businesses who are in desperate need of a digitilisation project. 
+						After the hardships and difficulties of the past few years, we want to help struggling businesses recover and reach 
+                        new targets. 						
+                    </p>
+                </div>
+            </li>
+			<li>
+                <label for="fourth"> How much funding will I receive if my business' application is successful? <span>&#x3e;</span></label>
+                <input type ="radio" name = "accordion" id ="fourth" checked>
+                <div class = "content">
+                    <p>
+                        After determining the need for funding in your business, our panel will decide on the monetary amount 
+						that your business requires on a variety of factors and you will be notified of this overall total amount.
+                    </p>
+                </div>
+            </li>
+			<li>
+                <label for="fifth">How old does my business have to be, to be eligible for funding?<span>&#x3e;</span></label>
+                <input type ="radio" name = "accordion" id ="fifth" checked>
+                <div class = "content">
+                    <p>
+                        The business applying for funding must have been founded at least 2 years ago in order to be 
+						eligible for the digitalisation funding. 
+                    </p>
+                </div>
+            </li>
+			<li>
+                <label for="sixth"> Where can I get in touch in with GOV FUNDING if I require further assistance with my application?<span>&#x3e;</span></label>
+                <input type ="radio" name = "accordion" id ="sixth" checked>
+                <div class = "content">
+                    <p>
+                        If you have any further questions or queries, you can ring our telephone number 02871623403 or email us directly 
+						at questions@govfunding.co.uk. 
+                    </p>
+                </div>
+            </li>
+			<li>
+                <label for="seventh"> When will my business hear if they are successful in their bid for funding? <span>&#x3e;</span></label>
+                <input type ="radio" name = "accordion" id ="seventh" checked>
+                <div class = "content">
+                    <p>
+                        Upon the deadline on the 16th December 2022, within two weeks, you will be notified if your business 
+						was successful in progressing to the next stage of the funding process through email. 
+                    </p>
+                </div>
+            </li>
+			<li>
+                <label for="eighth"> Is funding applications open to businesses across the UK and Ireland? <span>&#x3e;</span></label>
+                <input type ="radio" name = "accordion" id ="eighth" checked>
+                <div class = "content">
+                    <p>
+                        All small businesses in England, Scotland, Wales and Northern Ireland are eligible to apply 
+						for the grant. At this present moment, unfortunately, businesses in the Republic of Ireland will not be 
+						eligible for the funding grant. 
+                    </p>
+                </div>
+            </li>
+        </ul>
+		</div>
+  </form>
+</div>
+
+	
+
+<div class = "gather_info">
+	<h3> Contact Us </h3>
+	<form action = "register_account.html"> 
+	<label for="Name">Name</label>
+	<input type="text" id="Name" placeholder = "Enter Name...">
+	
+	<label for="companyName">Company Name</label>
+	<input type="text" id="companyName" placeholder = "Enter Company Name...">
+	
+	<label for="query">Outline Query</label>
+	<textarea id="query" name="query" placeholder="Outline query here..."  ></textarea>
+	
+	<button type = "submit" class ="button_click" onclick = "message()" >Submit Query</button>
+	</form>
+	</div>
+		
+
+		
+	<footer id = "footer">
+        <div class ="right">
+            <span><a href = "#">Help</a> | <a href ="#">Cookies</a> | <a href = "#">Accessibility Statement</a> | <a href = "#">Contact</a> | <a href = "#">Privacy Policy</a> | <a href = "#" >Terms and Conditions</a></span>
+        </div>
+		
+		<ul class ="socials">
+				<li><a href = "#"><i class = "fa fa-facebook"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-twitter"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-google-plus"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-youtube"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-linkedin-square"></i></a></li>
+			</ul>
+
+       <div class = "bottom">
+           <p>© 2022 GOV FUNDING</p>
+       </div>
+       </footer>
+	   
+		
+	</body>
+	</html>

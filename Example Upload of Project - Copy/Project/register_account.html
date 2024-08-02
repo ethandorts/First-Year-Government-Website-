@@ -1,0 +1,93 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+    <link rel="stylesheet" href="assets/register_account.css">
+	<link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+	</style>
+    <script defer src="assets/register_account.js"></script>
+</head>
+<body>
+	 <header>
+		  <img class = "logo" src = "assets/government_image.png" alt = "logo" height = "72" width = "85">
+		  <nav class = "navbar">
+		  <a href = "user_registration_form.html" class = "nav-title">Business Registration</a>
+		  <ul class = "nav-menu">
+		    <li><a href = "landing_pg.html" class = "nav-link" >Home</a></li>
+		    <li><a href = "faq.html" class = "nav-link" >FAQ</a></li>
+			<li><a href = "register_account" class = "nav-link">Register</a></li>
+			<li><a href = "funding_application_form.html" class = "nav-link">Application Form</a></li>
+			<li><a href = "submitted_application_form_.html" class = "nav-link">Submitted Forms</a></li>
+		</ul>
+	  </nav>
+	</header>
+	
+	<section class = "intro">
+	<h2>Create an Account</h2>
+    </section>
+	
+	<section class = "text">
+		<h5> Please register a GOV FUNDING Account below: </h5>
+	</section>
+
+
+    <div class="container">
+        <form id="form" action="/">
+            <h1>Register an Account</h1>
+            <div class="fields">
+                <label for="company_name">Company Name</label>
+                <input id="company_name" name="company_name" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="fields">
+                <label for="email">Email</label>
+                <input id="email" name="email" type="text">
+                <div class="error"></div>
+            </div>
+            <div class="fields">
+                <label for="password">Password</label>
+                <input id="password"name="password" type="password">
+                <div class="error"></div>
+            </div>
+            <div class="fields">
+                <label for="password2nd">Confirm Password</label>
+                <input id="password2nd"name="password2nd" type="password">
+                <div class="error"></div>
+            </div>
+            <button type="submit">Register</button>
+			<p> By clicking on Register you agree to our <a href ="#">Privacy Policy</a> and <a href = "#"> Terms and Conditions</a>
+        </form>
+    </div>
+	
+	<div class = "account_have">
+		<h3> Already have an account?</h3>
+		<a class = "button" href = "#"> Login</a>
+	</div>
+	
+	 <footer id ="footer">
+        <div class ="right">
+            <span><a href = "#">Help</a> | <a href ="#">Cookies</a> | <a href = "#">Accessibility Statement</a> | <a href = "#">Contact</a> | <a href = "#">Privacy Policy</a> | <a href = "#" >Terms and Conditions</a></span>
+        </div>
+		
+		<ul class ="socials">
+				<li><a href = "#"><i class = "fa fa-facebook"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-twitter"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-google-plus"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-youtube"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-linkedin-square"></i></a></li>
+			</ul>
+
+       <div class = "bottom">
+           <p>© 2022 GOV FUNDING</p>
+       </div>
+       </footer>
+	   
+	</body>
+	</html>
+</body>
+</html>

@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Landing Page </title>
+    <link rel = "stylesheet" href = "assets/landing.css"/>
+	<link rel="stylesheet" href = "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+	<style>
+		@import url('https://fonts.googleapis.com/css2?family=Baloo+2&display=swap');
+		@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap');
+	</style>
+  </head>
+  <body>
+    <header>
+	    <!-- Logo Image from https://en.m.wikipedia.org/wiki/Government_of_the_United_Kingdom-->
+		  <img class = "logo" src = "assets/government_image.png" alt = "logo" height = "72" width = "85">
+		  <nav class = "navbar">
+		  <a href = "landing_pg.html" class = "nav-branding">Government Digitalisation Funding Scheme</a>
+		  <ul class = "nav-menu">
+		    <li><a href = "landing_pg.html" class = "nav-link" >Home</a></li>
+		    <li><a href = "faq.html" class = "nav-link" >FAQ</a></li>
+			<li><a href = "register_account.html" class = "nav-link">Register</a></li>
+			<li><a href = "funding_application_form.html" class = "nav-link">Application Form</a></li>
+			<li><a href = "submitted_application_form_.html" class = "nav-link">Submitted Forms</a></li>
+		</ul>
+	  </nav>
+	</header>
+	<section class = "intro">
+	<h1> Welcome to GOV FUNDING  </h1>
+	<aside class ="search-bar">
+	<p>Search</p>
+	<form id="form" role="search">
+		<input type="search" id="query" name="q" placeholder = "Search..."
+		aria-label="Search through site content">
+		<button class= "btn" ><i class = "fa fa-search"></i></button>
+	</form>
+	</aside>
+	<h3><strong>Helping businesses grow, excel and surpass their limits!</strong></h3>
+    </section>
+	<section class = "start">
+	<div> 
+	    <h1> Apply For Funding</h1>
+		<p>The government are offering small businesses an opportunity to avail of funding in order to support a digitalisation project within their company.
+	    With the current economic crisis and the aftermath of the Covid-19 pandemic, the government recognises the impact and devastation that small and local businesses are currently dealing with. 
+		In this tough climate, it is the government’s aim to reward struggling businesses, in desperate need of funding, to upscale their technologies and processes. </p>
+	</div>
+	</section>
+	<section class = "create">
+		<p>Create an Account</p>
+		<div class = "button_text">
+			<p> Click the button below to create your GOV FUNDING account!</p>
+		</div>
+			<a class = "button" href = "register_account.html"> Create Account</a>
+	</section> 
+	
+	<section>
+	<div class = "details">
+		<h4> What is the aim of the project?</h4>
+		<p> It is our aim that successful applicants of the grant would avail of new modern digital technologies to change their business model and provide new revenue and value-producing opportunities.
+		With digitalisation, it is our hope that businesses will have a competitive advantage by doing things better, faster and cheaper than other competitors in the market.
+		</p> 
+	</div>
+
+	<div class = "details">
+		<h4> What would digitalisation mean for your company?</h4>
+		<ol>
+		  <li> 1. Introduction of the use of collaborative and digital tools.</li>
+		  <li> 2. The use of digital files on the cloud, with user authentication methods. Protects sensitive information and improves workflows.</li>
+		  <li> 3. The introduction of online sales channels, known as e-commerce, integrated with management software.</li>
+		  <li> 4. Platforms for creating, editing and storing files and sending them to your customers. e.g bills and invoices.</li>
+		  <li> 5. The use of data collection and predictive analysis tools e.g. works out the most successful selling items of a shop.</li>
+		</ol>
+	</div>
+	</section>
+	
+	<section> 
+	<div class = "details">
+	<h4> What does the application process involve? </h4>
+	</div>
+	<section>
+	
+	<section id ="container">
+		<div>
+		<p><center>1</center></p>
+		<h5> Register and Enrolment</h5>
+		<p> Create an Account through our government website. You can create an account <a href = "user_registration_form.html">here</a></p>
+		</div>
+		<div>
+		<p><center>2</center></p>
+		<h5> Express of Interest</h5>
+		<p> Complete an application providing details of your business and why you believe your business is eligible for a grant.</p>
+		</div>
+		<div>
+		<p><center>3</center></p>
+		<h5> Provide Supporting Documentation</h5>
+		<p> If your project meets eligibility criteria, you will be asked to provide supporting evidence.</p>
+		</div>
+		<div>
+		<p><center>4<center></p>
+		<h5>Selection</h5>
+		<p>Provided that your checks are approved, your project will be reviewed by our grant panel and board members will notify you of the result of your application. </p>
+		</div>
+    </section>
+	<footer id = "footer">
+        <div class ="right">
+            <span><a href = "#">Help</a> | <a href ="#">Cookies</a> | <a href = "#">Accessibility Statement</a> | <a href = "#">Contact</a> | <a href = "#">Privacy Policy</a> | <a href = "#" >Terms and Conditions</a></span>
+        </div>
+		
+		<ul class ="socials">
+				<li><a href = "#"><i class = "fa fa-facebook"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-twitter"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-google-plus"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-youtube"></i></a></li>
+				<li><a href = "#"><i class = "fa fa-linkedin-square"></i></a></li>
+			</ul>
+
+       <div class = "bottom">
+           <p>© 2022 GOV FUNDING</p>
+       </div>
+       </footer>
+	</body>
+	</html>
